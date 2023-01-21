@@ -1,3 +1,4 @@
+#Import Modules
 from http.client import HTTPSConnection 
 from sys import stderr 
 from json import dumps 
@@ -11,6 +12,7 @@ with open('./config.json') as f:
 channelid = c['channelid'] #modify this in config.json
 token = c['token'] #modify this in config.json
 message = c['message'] #modify this in config.json
+web = True #Change this to False to disable the keep alive server
 header_data = { 
 	"content-type": "application/json", 
 	"user-agent": "discordapp.com", 
@@ -43,7 +45,11 @@ def main():
 	} 
  
 	send_message(get_connection(), channelid, dumps(message_data)) 
- 
+#Keep Alive
+if web == True:
+    from keepalive import keep_alive
+    keep_alive()
+#Start The Sender
 if __name__ == '__main__': 
 	while True:    
 		main()      
