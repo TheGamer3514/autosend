@@ -1,0 +1,9 @@
+{
+    "Config": [
+        {
+            "token": "token",
+            "channelid": "",
+            "message": "hello! this message is sent every 2 mins :)"
+         }
+    ]
+}
