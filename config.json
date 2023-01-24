@@ -3,7 +3,8 @@
         {
             "token": "token",
             "channelid": "",
-            "message": "hello! this message is sent every 2 mins :)"
+            "message": "hello! this message is sent every 2 mins :)",
+            "web": "true" 
          }
     ]
 }
