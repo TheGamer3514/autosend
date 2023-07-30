@@ -1,0 +1,10 @@
+{
+    "Config": [
+        {
+            "token": "",
+            "channelids": [channelids],
+            "message": "hello! this message is sent every 2 mins :)",
+            "web": "true" 
+         }
+    ]
+}
