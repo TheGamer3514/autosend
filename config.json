@@ -1,9 +1,9 @@
 {
     "Config": [
         {
-            "token": "",
-            "channelids": [channelids],
-            "message": "hello! this message is sent every 2 mins :)",
+            "token": "ur token here lollll",
+            "channelids": [1134072098596331540,1134072158331621376],
+            "messages": ["hello! this message is sent every 2 mins :)","Cool Second message"],
             "web": "true" 
          }
     ]
