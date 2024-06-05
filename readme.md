@@ -1,7 +1,7 @@
 # AutoSendDiscordMessage
 A simple Python code to send a message with your discord account every set amount of time, without having to be online.
 
-- Support: https://discord.gg/3qvpkgWSbF
+- Support: https://discord.gg/sillydev
 # Setup
 1. Fill Out The Config In `config.json`
 2. Run `python main.py`
